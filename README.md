@@ -1,23 +1,12 @@
 # Zillow Scraper
 
-Zillow Scraper by Omkar Cloud gives you 🎯 accurate, 🔍 detailed Zillow data as clean JSON — in real time.
+Zillow Scraper gets you 🎯 accurate, 🔍 detailed Zillow data as clean JSON --- in real time.
 
-Getting Zillow data reliably is hard.
+No selectors, no proxies, no data cleaning. Just the data.
 
-Zillow Scraper handles the hard parts — no selectors, no proxies, no data cleaning.
+[**Try it now in the playground**](https://www.omkar.cloud/tools/zillow-scraper/playground) --- Test data quality in playground without signing up.
 
-Just the data, so you can successfully complete your project.
-
-[**Try it now, no sign-up required:**](https://www.omkar.cloud/tools/zillow-scraper/playground) every one of the 13 endpoints runs with one click in the [playground](https://www.omkar.cloud/tools/zillow-scraper/playground).
-
-**Best part? Build on it for free:** Get 1,000 free calls every month, no credit card. Use them to your heart's content ❤️
-
-This is an excellent API made by Omkar Cloud, which is Rated Excellent — [4.7 based on 30 reviews on Trustpilot](https://www.trustpilot.com/review/omkar.cloud).
-
-Also available on:
-
-[![Run on Apify](https://img.shields.io/badge/Apify-blue)](https://apify.com/omkar-cloud/zillow-scraper) [![Run on RapidAPI](https://img.shields.io/badge/RapidAPI-blue?logo=rapidapi)](https://rapidapi.com/Chetan11dev/api/zillow-scraper/playground)
-
+**Build on it free:** 1,000 calls every month, no credit card ❤️
 
 ## What can I get
 
