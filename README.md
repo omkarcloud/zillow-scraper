@@ -1,130 +1,175 @@
 # Zillow Scraper
 
-Extract Zillow property data—listing prices, property types, bedrooms, bathrooms, square footage, location details, and more—into clean Excel files in seconds.
+Zillow Scraper by Omkar Cloud gives you 🎯 accurate, 🔍 detailed Zillow data as clean JSON — in real time.
 
-## Disclaimer for Zillow Scraper Project
+Getting Zillow data reliably is hard.
 
-> This Zillow Scraper is provided for educational and research purposes only. By using this Zillow Scraper, you agree to comply with local and international laws regarding data scraping and privacy. The authors and contributors are not responsible for any misuse of this software. This tool should not be used to violate the rights of others, or for unethical purposes.
+Zillow Scraper handles the hard parts — no selectors, no proxies, no data cleaning.
 
-We take the concerns of the Zillow Scraper Project very seriously. For any concerns, please contact Chetan Jain at [chetan@omkar.cloud](mailto:chetan@omkar.cloud). We will promptly reply to your emails.
+Just the data, so you can successfully complete your project.
 
-## ⚡ Why Choose Our Zillow Scraper?
+[**Try it now, no sign-up required:**](https://www.omkar.cloud/tools/zillow-scraper/playground) every one of the 13 endpoints runs with one click in the [playground](https://www.omkar.cloud/tools/zillow-scraper/playground).
 
-* **Unlimited Extractions** – No monthly fees, no account restrictions. Extract as much property data as you need.
-* **Massive Time Savings** – Get hundreds of property listings in minutes, not hours. Perfect for real estate investors, agents, and market analysts.
-* **Complete Data Coverage** – [See what you can extract.](#what-data-is-available)
+**Best part? Build on it for free:** Get 1,000 free calls every month, no credit card. Use them to your heart's content ❤️
 
-## 📌 What is Zillow Scraper?
+This is an excellent API made by Omkar Cloud, which is Rated Excellent — [4.7 based on 30 reviews on Trustpilot](https://www.trustpilot.com/review/omkar.cloud).
 
-**omkar.cloud Zillow Scraper** is a powerful tool that extracts structured property data directly from Zillow search results and property listings without requiring any coding knowledge.
+Also available on:
 
-Simply **enter your search location or property criteria**, and our scraper handles the rest—extracting, parsing, and delivering clean, ready-to-use Zillow property data in Excel format.
+[![Run on Apify](https://img.shields.io/badge/Apify-blue)](https://apify.com/omkar-cloud/zillow-scraper) [![Run on RapidAPI](https://img.shields.io/badge/RapidAPI-blue?logo=rapidapi)](https://rapidapi.com/Chetan11dev/api/zillow-scraper/playground)
 
-## 🚀 How to Use It (3 Simple Steps)
 
-### Step 1: Create Your Free Account
+## What can I get
 
-Sign up for a [Free Account on omkar.cloud](https://www.omkar.cloud/auth/sign-up/?redirect=/tools/zillow-scraper/input/&utm_source=github&utm_medium=repo&utm_campaign=zillow-repo). It's free, and we don't ask for your credit card.
+- 🏠 **Full details on 110M+ US homes** — Zestimate, price & tax history, schools, photos, agent phone
+- 🔍 **Search for-sale, for-rent & sold homes** — by city, ZIP, coordinates or URL; filter & sort
+- 📈 **Valuation context** — Zestimate history charts, comparable homes, nearby homes, Walk Score
+- 🧑‍💼 **Agent directory** — search agents by city; full profiles with email, phones, licenses & reviews
 
-[![Press Try Free](https://raw.githubusercontent.com/omkarcloud/assets/master/images/try-free.png)](https://www.omkar.cloud/auth/sign-up/?redirect=/tools/zillow-scraper/input/)
+## Why Zillow Scraper
 
-### Step 2: Enter Your Search Criteria
+Most other Zillow APIs fail you in one of four ways:
 
-Enter the search queries.
+- 🗄️ **Inaccurate, cached, stale data**
+- 🧩 **Low-detail endpoints** — a few fields per call, never the full picture
+- 💸 **Pay more to get the same data**
+- 🪦 **Works today, breaks next month** — nobody maintains it
 
-![Enter Input and Run](https://www.omkar.cloud/images/tools/zillow/input.png)
+Zillow Scraper is scraped live on every call, priced honestly, and actively maintained.
 
-### Step 3: Download Your Data
-
-Click "Extract" and get your structured Zillow property data immediately as Excel, CSV, or JSON.
-
-![Enjoy Results](https://www.omkar.cloud/images/tools/zillow/output.png)
-
-## 📄 What Data is Available?
-
-### 🏡 Property Data Sample
+## Example: A Full Zillow Property
 
 ```json
 {
-    "listing_price": 229990.0,
-    "street_address": "2154 Harvey Brown School Dr",
-    "city": "Houston",
-    "state": "TX",
-    "postal_code": "77049",
-    "property_type": "SINGLE_FAMILY",
-    "bedroom_count": 3.0,
-    "bathroom_count": 2.0,
-    "square_footage": 1405.0,
-    "lot_area": 5288.184,
-    "lot_area_unit": "sqft",
-    "construction_year": null,
-    "listing_duration": -1,
-    "estimated_value": 225800,
-    "estimated_rent": 1915,
-    "recent_price_change": null,
-    "price_change_date": null,
-    "tax_assessment": null,
-    "is_new_construction": false,
-    "is_agent_listing": true,
-    "is_premier_builder": false,
-    "is_zillow_owned": false,
-    "latitude": 29.81355,
-    "longitude": -95.13464,
-    "primary_photo_url": "https://photos.zillowstatic.com/fp/7d7a9d9e18ce3fa036f3f7adb0e0f2e2-p_e.jpg",
-    "listing_url": "https://www.zillow.com/homedetails/2086122514_zpid/"
+  "zpid": "20521904",
+  "status": "FOR_SALE",
+  "home_type": "SINGLE_FAMILY",
+  "address": { "street": "927 N Whittier Dr", "city": "Beverly Hills", "state": "CA", "zipcode": "90210", "county": "Los Angeles County" },
+  "latitude": 34.07979,
+  "longitude": -118.421936,
+  "price": 35995000,
+  "currency": "USD",
+  "zestimate": 32742200,
+  "rent_zestimate": 50671,
+  "tax_rate": 1.18,
+  "last_sold_price": 8800000,
+  "date_sold": "2020-07-01",
+  "bedrooms": 9,
+  "bathrooms": 10,
+  "living_area": 13000,
+  "living_area_units": "sqft",
+  "lot_size": 0.5767,
+  "lot_size_units": "Acres",
+  "year_built": 2025,
+  "days_on_zillow": 57,
+  "page_view_count": 4238,
+  "favorite_count": 196,
+  "description": "Nestled in one of Beverly Hills' most prestigious enclaves, on just over half an acre, this breathtaking modern estate seamlessly blends timeless elegance with contemporary luxury. The striking white facade, framed by lush greenery and mature trees, sets the stage for an exceptional living experience...",
+  "listing_type": { "is_for_sale_by_agent": true, "is_new_construction": false, "is_foreclosure": false, "is_pending": false },
+  "facts": {
+    "appliances": ["Barbeque", "Dishwasher", "Dryer", "Washer", "Refrigerator"],
+    "architectural_style": "Modern",
+    "cooling": ["Central Air"],
+    "heating": ["Central"],
+    "flooring": ["Wood", "Stone", "Marble"],
+    "has_garage": true,
+    "garage_spaces": 4,
+    "stories": 2,
+    "price_per_sqft": 2769
+  },
+  "agent": {
+    "agent_name": "Branden Williams",
+    "agent_phone": "310-776-0737",
+    "agent_license": "DRE # 01774287",
+    "broker_name": "The Beverly Hills Estates",
+    "broker_phone": "310-626-4248",
+    "mls_id": "26854793",
+    "mls_name": "CLAW"
+  },
+  "photos": [
+    "https://photos.zillowstatic.com/fp/fc1d1f30edfc0cb06ac5cc1940423db6-uncropped_scaled_within_1536_1152.jpg",
+    "https://photos.zillowstatic.com/fp/bb122c30d6a0cce496d813761f2cf768-uncropped_scaled_within_1536_1152.jpg"
+  ],
+  "photo_count": 55,
+  "price_history": [
+    { "date": "2026-07-02", "event": "Listed for sale", "price": 35995000, "price_per_sqft": 2769, "source": "CLAW" },
+    { "date": "2025-03-24", "event": "Listed for sale", "price": 37500000, "price_per_sqft": 2885, "source": "CLAW" }
+  ],
+  "tax_history": [
+    { "date": "2025-08-29", "tax_paid": 115084.16, "assessed_value": 9525402 },
+    { "date": "2024-08-29", "tax_paid": 112577.08, "assessed_value": 9338630 }
+  ],
+  "schools": [
+    { "name": "El Rodeo Elementary School", "rating": 10, "grades": "K-5", "distance": 0.9 },
+    { "name": "Beverly Hills High School", "rating": 9, "grades": "9-12", "distance": 1.4 }
+  ],
+  "nearby_neighborhoods": [
+    { "name": "Beverly Hills Gateway", "link": "https://www.zillow.com/beverly-hills-gateway-beverly-hills-ca/" }
+  ],
+  "link": "https://www.zillow.com/homedetails/927-N-Whittier-Dr-Beverly-Hills-CA-90210/20521904_zpid/"
 }
 ```
 
-## What Can I Do With It?
+*Trimmed for readability.*
 
-- **Real Estate Investment Analysis** – Find undervalued properties, analyze cash flow potential, and identify profitable investment opportunities
-- **Market Research** – Track property prices, rental rates, and market trends across different neighborhoods
-- **Comparative Market Analysis (CMA)** – Quickly gather comparable property data for accurate property valuations
-- **Price Monitoring** – Monitor listing price changes, price reductions, and days on market
-- **Portfolio Management** – Track property values and market performance across your real estate portfolio
-- **Lead Generation** – Identify potential properties for buyers, sellers, or rental clients
-- **Rental Analysis** – Compare rental estimates, analyze rental yields, and find investment properties
-- **Market Reports** – Generate comprehensive real estate market reports for clients or stakeholders
-- **Property Flipping** – Find distressed properties, analyze renovation potential, and estimate after-repair values
-- **Geographic Analysis** – Analyze property distributions, prices, and characteristics across different areas
+## Get Started with 1,000 Free Calls
 
-Ultimately, it helps you make data-driven decisions in the US real estate market.
+Start in the [playground](https://www.omkar.cloud/tools/zillow-scraper/playground) — try any endpoint with one click, no sign-up required.
 
-## 💰 How Much Does It Cost?
+Once you're happy with the data, start with the free plan for 1,000 free calls every month:
 
-**Currently free** for unlimited queries!
+1. [Sign up on Omkar Cloud](https://www.omkar.cloud/auth/sign-up?redirect=/tools/zillow-scraper/playground) — free, no credit card.
+2. Open the [Zillow Scraper playground](https://www.omkar.cloud/tools/zillow-scraper/playground) and enter any city or address you like. Click **Get Live Data**.
+3. Enjoy your data 😎.
 
-After December 1st, 2025, we'll introduce a paid tier with a generous free tier that will continue to meet most users' needs.
+## Endpoints
 
-## I Need Other Data Points. Do You Have It?
+13 endpoints cover everything you need.
 
-If you need additional data points, reach out on WhatsApp—we can add what you need or suggest the best alternative for your use case.
+| Endpoint | Path | Returns |
+|---|---|---|
+| Location Autocomplete | `/locations/auto-complete` | Turns any city, ZIP or address into a region id or zpid |
+| Search For Sale / Rent / Sold | `/properties/search-sale`, `/properties/search-rent`, `/properties/search-sold` | ~40 listings per page; filter by price, beds, baths, sqft, home type; sortable |
+| Search By Coordinates | `/properties/search-coordinates` | Listings within N miles of a lat/lng point |
+| Search By URL | `/properties/search-url` | Paste any zillow.com search URL, keep its filters |
+| Property Details | `/properties/detail` | Everything about one home in a single call |
+| Property Value History | `/properties/value-history` | Zestimate, rent and tax charts over 1, 5 or 10 years |
+| Comparable Homes | `/properties/comps` | Zillow's own comps for a home |
+| Nearby Homes | `/properties/nearby` | Homes around a listing with price and coordinates |
+| Walk, Transit & Bike Score | `/properties/walk-transit-score` | All three scores with descriptions |
+| Search Agents | `/agents/search` | Agents covering a city, with reviews and sales stats |
+| Agent Details | `/agents/detail` | Email, phones, licenses, service areas, reviews, listings and sales |
 
-[![Contact Us on WhatsApp about Additional Data](https://raw.githubusercontent.com/omkarcloud/assets/master/images/whatsapp-us.png)](https://api.whatsapp.com/send?phone=918295042963&text=Hi,%20I%20need%20help%20with%20data.)
+## Pricing
 
-## Why Should I Choose omkar.cloud?
+High value, Low price.
 
-We want to give you a great experience:
+| Plan | Price | Calls / month | Per 1,000 |
+|---|---|---|---|
+| **Free** | **Free** | **1,000** — the most generous free plan | $0 |
+| **Starter** | $16/mo | 20,000 | $0.80 |
+| **Grow** | $48/mo | 100,000 | $0.48 |
+| **Scale** | $148/mo | 400,000 | $0.37 |
 
-- Our open source work is sponsored by [1000+ people on GitHub.](https://github.com/sponsors/omkarcloud)
-- Free to try, reliable, and continuously maintained scraper
-- 90-Day Refund Guarantee for peace of mind. We make refunds so simple, you can get a refund in just [2 clicks](https://www.omkar.cloud/refund-process)
-- Have a question? We're ready to help you via [WhatsApp](https://api.whatsapp.com/send?phone=918295042963&text=Hi,%20I%20would%20like%20to%20learn%20more%20about%20your%20Zillow%20Scraper) or [email](mailto:chetan@omkar.cloud?subject=Help%20with%20Zillow%20Scraper&body=I%20need%20help%20with%20using%20the%20Zillow%20Scraper.)
+Need a bigger plan? Ask on [WhatsApp](https://api.whatsapp.com/send?phone=918178804274&text=I%20need%20a%20custom%20plan%20for%20the%20Zillow%20Scraper%20API.) or [Email](mailto:happy.to.help@omkar.cloud?subject=Custom%20plan%20for%20Zillow%20Scraper%20API&body=I%20need%20a%20custom%20plan%20for%20the%20Zillow%20Scraper%20API.).
 
-## 📞 Need Help or Have Questions?
+👉 [Start with Free Plan](https://www.omkar.cloud/auth/sign-up?redirect=/tools/zillow-scraper/playground) — 1,000 free calls/month
 
-We're here to help you extract Zillow property data efficiently:
+## 💬 Have Questions? We Have Answers.
 
-* **WhatsApp:** [Message us for instant support](https://api.whatsapp.com/send?phone=918295042963&text=Hi,%20I%20would%20like%20to%20learn%20more%20about%20your%20Zillow%20Scraper)
+You're a developer — we know how hard completing a project can be. So we offer full support: just message us and we'll reply ✅ with a solution within 1 working day.
 
-[![Contact Us on WhatsApp about Zillow Scraper](https://raw.githubusercontent.com/omkarcloud/assets/master/images/whatsapp-us.png)](https://api.whatsapp.com/send?phone=918295042963&text=Hi,%20I%20would%20like%20to%20learn%20more%20about%20your%20Zillow%20Scraper)
+[![Message Us on WhatsApp about Zillow Scraper](https://raw.githubusercontent.com/omkarcloud/assets/master/images/whatsapp-us.png)](https://api.whatsapp.com/send?phone=918178804274&text=I%20need%20help%20using%20the%20Zillow%20Scraper%20API.)
 
-* **Email:** [Get in touch](mailto:chetan@omkar.cloud?subject=Help%20with%20Zillow%20Scraper&body=I%20need%20help%20with%20using%20the%20Zillow%20Scraper.)
+[![Ask Us by Email about Zillow Scraper](https://raw.githubusercontent.com/omkarcloud/assets/master/images/ask-on-email.png)](mailto:happy.to.help@omkar.cloud?subject=Help%20with%20Zillow%20Scraper%20API&body=I%20need%20help%20using%20the%20Zillow%20Scraper%20API.)
 
-[![Contact Us on Email about Zillow Scraper](https://raw.githubusercontent.com/omkarcloud/assets/master/images/ask-on-email.png)](mailto:chetan@omkar.cloud?subject=Help%20with%20Zillow%20Scraper&body=I%20need%20help%20with%20using%20the%20Zillow%20Scraper.)
+## Popular Scrapers by Omkar Cloud
 
-We'll respond within **24 hours** 🚀
+- **[Google Maps Scraper (3,100+ GitHub Stars)](https://github.com/omkarcloud/google-maps-scraper)** — type "realtors in Miami", get every business as a ready-to-call lead list: phones, emails, websites & reviews. Up to 100K free leads/month.
+- [**Rightmove Scraper**](https://www.omkar.cloud/tools/rightmove-scraper) — UK homes for sale & to rent, sold prices & estate agents
+- [**Zoopla Scraper**](https://www.omkar.cloud/tools/zoopla-scraper) — UK property search, details, house prices & agents
+- [**Airbnb Scraper**](https://www.omkar.cloud/tools/airbnb-scraper) — Airbnb listings: prices, ratings, amenities & hosts
+- [**Booking Scraper**](https://www.omkar.cloud/tools/booking-scraper) — Booking.com hotels: prices, ratings, rooms & amenities
+- [**Website Email Contact Scraper**](https://www.omkar.cloud/tools/website-email-contact-scraper) — emails, phones & socials from any website
 
----
-
-## 🔥 **[Try It Now & Get Zillow Property Data in Minutes!](https://www.omkar.cloud/auth/sign-up/?redirect=/tools/zillow-scraper/input/&utm_source=github&utm_medium=repo&utm_campaign=zillow-repo)** 🚀
+👉 [Start with Free Plan](https://www.omkar.cloud/auth/sign-up?redirect=/tools/zillow-scraper/playground) — 1,000 free calls/month
