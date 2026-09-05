@@ -1,10 +1,10 @@
 # Zillow Scraper
 
-Zillow Scraper gets you 🎯 accurate, 🔍 detailed Zillow data as clean JSON - in real time.
+Zillow Scraper gets you 🎯 accurate, 🔍 detailed Zillow data as clean JSON in **Real-Time**.
 
 No selectors, no proxies, no data cleaning. Just the data.
 
-[**Try it now in the playground**](https://www.omkar.cloud/tools/zillow-scraper/playground) - Test data quality in playground without signing up.
+[**Try it now in the playground**](https://www.omkar.cloud/tools/zillow-scraper/playground) - See the data quality for yourself in one click, **No sign-up required**.
 
 **Build on it free:** 1,000 calls every month, no credit card ❤️
 
