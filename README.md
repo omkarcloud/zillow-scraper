@@ -8,6 +8,8 @@ No selectors, no proxies, no data cleaning. Just the data.
 
 **Build on it free:** 1,000 calls every month, no credit card ❤️
 
+[![Zillow Scraper API playground — run a live request in your browser, free, no sign-up](https://raw.githubusercontent.com/omkarcloud/zillow-scraper/master/playground.png)](https://www.omkar.cloud/tools/zillow-scraper/playground)
+
 ## What can I get
 
 - 🏠 **Full details on 110M+ US homes** — Zestimate, price & tax history, schools, photos, agent phone
