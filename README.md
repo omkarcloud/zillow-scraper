@@ -142,7 +142,7 @@ High value, Low price.
 | **Grow** | $48/mo | 100,000 | $0.48 |
 | **Scale** | $148/mo | 400,000 | $0.37 |
 
-Need a bigger plan? Ask on [WhatsApp](https://www.omkar.cloud/l/zillow-scraper-github-custom-plan-whatsapp) or [Email](https://www.omkar.cloud/l/zillow-scraper-github-custom-plan-email).
+Need a bigger plan? Ask on [WhatsApp](https://www.omkar.cloud/l/zillow-scraper-github-custom-plan-whatsapp) or [Email](mailto:happy.to.help@omkar.cloud?subject=Custom%20plan%20for%20Zillow%20Scraper%20API&body=I%20need%20a%20custom%20plan%20for%20the%20Zillow%20Scraper%20API.).
 
 👉 [Start with Free Plan](https://www.omkar.cloud/auth/sign-up?redirect=/tools/zillow-scraper/playground) — 1,000 free calls/month
 
@@ -152,7 +152,7 @@ You're a developer — we know how hard completing a project can be. So we offer
 
 [![Message Us on WhatsApp about Zillow Scraper](https://raw.githubusercontent.com/omkarcloud/assets/master/images/whatsapp-us.png)](https://www.omkar.cloud/l/zillow-scraper-github-whatsapp)
 
-[![Ask Us by Email about Zillow Scraper](https://raw.githubusercontent.com/omkarcloud/assets/master/images/ask-on-email.png)](https://www.omkar.cloud/l/zillow-scraper-github-email)
+[![Ask Us by Email about Zillow Scraper](https://raw.githubusercontent.com/omkarcloud/assets/master/images/ask-on-email.png)](mailto:happy.to.help@omkar.cloud?subject=Help%20with%20Zillow%20Scraper%20API&body=I%20need%20help%20using%20the%20Zillow%20Scraper%20API.)
 
 ## Popular Scrapers by Omkar Cloud
 
