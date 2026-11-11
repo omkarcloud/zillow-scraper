@@ -160,7 +160,7 @@ You're a developer — we know how hard completing a project can be. So we offer
 - [**Rightmove Scraper**](https://www.omkar.cloud/tools/rightmove-scraper) — UK homes for sale & to rent, sold prices & estate agents
 - [**Zoopla Scraper**](https://www.omkar.cloud/tools/zoopla-scraper) — UK property search, details, house prices & agents
 - [**Airbnb Scraper**](https://www.omkar.cloud/tools/airbnb-scraper) — Airbnb listings: prices, ratings, amenities & hosts
-- [**Booking Scraper**](https://www.omkar.cloud/tools/booking-scraper) — Booking.com hotels: prices, ratings, rooms & amenities
+- [**Zap Imoveis Scraper**](https://github.com/omkarcloud/zap-imoveis-scraper) — ZAP Imóveis Brazil listings: prices, condo fees, IPTU, photos & agencies
 - [**Website Email Contact Scraper**](https://www.omkar.cloud/tools/website-email-contact-scraper) — emails, phones & socials from any website
 
 👉 [Start with Free Plan](https://www.omkar.cloud/auth/sign-up?redirect=/tools/zillow-scraper/playground) — 1,000 free calls/month
